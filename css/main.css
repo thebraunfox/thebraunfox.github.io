@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html{
+    font-family: "Courier New", monospace;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+h1{
+    font-size: 60px;
+    }
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+
+a{
+    color: steelblue;
+}
+
+
+:root{
+    --spacing: 24px;
+    --min-card-width: 250px;
+}
+
+.gallery{
+    display: flex;
+    margin: 0 auto;
+    padding: 0.5em 0;
+    flex-flow: wrap;
+    background-color: black;
+    height: 100vh;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+.item{
+
+    background-color: white;
+    flex: 1 0 16% ;
+    margin: 1%;
+    width: 25%;
+
+
+}
+
+
+
+
+.block-text{
+    font-size: medium;
+    padding: 0 20px;
+}
+
+
